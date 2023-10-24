@@ -30,9 +30,7 @@ class IndipayServiceProvider extends ServiceProvider {
         $this->publishes([
             __DIR__.'/config/config.php' => base_path('config/indipay.php')
         ]);
-
 		$this->loadViewsFrom(__DIR__.'/views', 'indipay');
-
     }
 
 	/**
