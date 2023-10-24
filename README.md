@@ -1,5 +1,5 @@
 # IndiPay
-The Latest Laravel Package for Indian Payment Gateways. Currently supported gateway: <a href="http://www.ccavenue.com/">CCAvenue</a>, <a href="https://www.payumoney.com/">PayUMoney</a>, <a href="https://www.ebs.in">EBS</a>, <a href="http://www.citruspay.com/">CitrusPay</a> ,<a href="https://pay.mobikwik.com/">ZapakPay</a> (Mobikwik), <a href="https://dashboard.paytm.com/">Paytm</a>, <a href="http://mocker.in">Mocker</a>
+The Laravel 10+ Package for Indian Payment Gateways. Currently supported gateway: <a href="http://www.ccavenue.com/">CCAvenue</a>, <a href="https://www.payumoney.com/">PayUMoney</a>, <a href="https://www.ebs.in">EBS</a>, <a href="http://www.citruspay.com/">CitrusPay</a> ,<a href="https://pay.mobikwik.com/">ZapakPay</a> (Mobikwik), <a href="https://dashboard.paytm.com/">Paytm</a>, <a href="http://mocker.in">Mocker</a>
 
 <h2>Installation</h2>
 <b>Step 1:</b> Install package using composer

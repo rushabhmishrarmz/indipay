@@ -1,6 +1,6 @@
 {
     "name": "rushabhmishrarmz/indipay",
-    "description": "The Laravel 10 Package for Indian Payment Gateways. Currently supported gateways: CCAvenue, PayUMoney, EBS, CitrusPay, InstaMojo, ZapakPay, Paytm, Mocker.",
+    "description": "The Laravel 10+ Package for Indian Payment Gateways. Currently supported gateways: CCAvenue, PayUMoney, EBS, CitrusPay, InstaMojo, ZapakPay, Paytm, Mocker.",
     "license": "MIT",
     "keywords": [
         "Laravel 10",
