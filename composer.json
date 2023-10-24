@@ -22,7 +22,8 @@
     ],
     "require": {
         "php": ">=8.2",
-        "guzzlehttp/guzzle": "^7.2"
+        "guzzlehttp/guzzle": "^7.2",
+        "rushabhmishrarmz/indipay": "1.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -39,5 +40,6 @@
             }
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
