@@ -7,22 +7,12 @@ The Laravel 10+ Package for Indian Payment Gateways. Currently supported gateway
     composer require rushabhmishrarmz/indipay
 </pre></code>
 
-<b>Step 2:</b> Add the service provider to the config/app.php file in Laravel (Optional for Laravel 5.5+)
-<pre><code>
-    Indipay\Indipay\IndipayServiceProvider::class,
-</pre></code>
-
-<b>Step 3:</b> Add an alias for the Facade to the config/app.php file in Laravel (Optional for Laravel 5.5+)
-<pre><code>
-    'Indipay' => Indipay\Indipay\Facades\Indipay::class,
-</pre></code>
-
-<b>Step 4:</b> Publish the config & Middleware by running in your terminal
+<b>Step 2:</b> Publish the config & Middleware by running in your terminal
 <pre><code>
     php artisan vendor:publish --provider="Indipay\Indipay\IndipayServiceProvider" 
 </pre></code>
 
-<b>Step 5:</b> Disable CSRF verification upon payment response routes. 
+<b>Step 3:</b> Disable CSRF verification upon payment response routes. 
 
 > Just put routes in `$expect` array on `VerifyCsrfToken` middleware.
 
@@ -36,7 +26,7 @@ Initiate Purchase Request and Redirect using the default gateway:-
       /* All Required Parameters by your Gateway will differ from gateway to gateway refer the gate manual */
       
       $parameters = [
-        'transaction_no' => '1233221223322',
+        'transaction_no' => '784521221245',
         'amount' => '1500.00',
         'name' => 'Jon Doe',
         'email' => 'jon@doe.com'
